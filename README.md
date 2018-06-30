@@ -1,2 +1,2 @@
-# hello-world
-just another repository
+# MACHINE_LEARNING
+CONTAINS ML CODES IN PYTHON
