@@ -21,7 +21,7 @@ class knn():
 				count_k+=1
 			else:
 				count_r+=1
-		if count_k>count_r:
+		if count_k>=count_r:
 			return 'k'
 		else:
 			return 'r'	
