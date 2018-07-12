@@ -51,7 +51,7 @@ X_predict=preprocessing.scale(X_predict)
 X_train,X_test,y_train,y_test=model_selection.train_test_split(X,y,test_size=0.2)
 
 #classifieer to be choosen
-clf=RandomFreeClassifier(criterion='entropy', random_state=0,n_jobs=-1)
+clf=RandomForestClassifier(criterion='entropy', random_state=0,n_jobs=-1)
 clf.fit(X_train,y_train)
 confidence=clf.score(X_test,y_test)
 print(confidence)
