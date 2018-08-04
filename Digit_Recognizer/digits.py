@@ -29,6 +29,7 @@ image_test=image_test/255.0
 model=keras.models.Sequential([
 	keras.layers.Flatten(),
 	keras.layers.Dense(500,activation='sigmoid'),
+	keras.layers.Dense(500,activation='sigmoid'),
 	keras.layers.Dense(10,activation='softmax'),
 ])
 
