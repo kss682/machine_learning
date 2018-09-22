@@ -19,7 +19,7 @@ so weight is modified when both are ON
 
 Reference-Fundamentals of Neural Networks
 
-Code below is amatuer .
+
 """
 import numpy as np
 
